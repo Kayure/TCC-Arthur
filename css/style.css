@@ -1,0 +1,94 @@
+    .hidden {
+        display: none;
+    }
+    
+    .visible {
+        display: block;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: rgb(245, 245, 245);
+        font-size: large;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    #main {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    
+    #PainelLateral {
+        background-color: gainsboro;
+        border: solid;
+        width: 300px;
+        justify-content: right;
+        border-left: 0;
+    }
+    
+    #DivAno {
+        text-align: center;
+        font-size: x-large;
+    }
+    
+    #Info {
+        border: solid;
+        text-align: center;
+    }
+    
+    #DivBandeira {
+        size: 5%;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    #Ano {
+        text-align: center;
+    }
+    
+    #mapa {
+        justify-content: end;
+        text-align: center;
+        border: solid;
+        height: 501px;
+        display: flex;
+        background-color: rgb(112, 128, 144)
+    }
+    
+    #mapa1914 {
+        text-align: center;
+        display: block;
+        transition: all 4s ease-in-out;
+        border-bottom: -10;
+    }
+    
+    #mapa1920 {
+        text-align: center;
+        display: block;
+        transition: all 4s ease-in-out;
+    }
+    
+    #mapa1936 {
+        text-align: center;
+        display: block;
+    }
+    
+    #TimelineDiv {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #Botoes {
+        bottom: auto;
+        align-items: center;
+    }
